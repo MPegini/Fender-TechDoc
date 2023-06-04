@@ -1,0 +1,75 @@
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+}
+header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+#main-doc header {
+    text-align: left;
+    margin: 0px;
+}
+@media screen and (min-width: 1024px) {
+    .gfg-div {
+        background-color: #63c971;
+        color: #fff;
+    }
+}
+@media screen and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+    .gfg-div {
+        width: 400px;
+        height: 400px;
+        color: black;
+    }
+}
+@media screen and (max-device-width: 480px)
+    and (orientation: portrait) {
+    .gfg-div {
+        width: 200px;
+        height: 200px;
+        color: #fff;
+    }
+}
+@media screen
+    and (max-device-width: 640px) {
+    .gfg-div {
+        width: 400px;
+        height: 200px;
+        color: black;
+    }
+}
